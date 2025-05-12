@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const openai = new OpenAI({
-  apiKey: "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", // Replace with your key
+  apiKey: "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", 
 });
 
 app.post("/api/generate-image-post", async (req, res) => {
